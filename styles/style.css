@@ -99,9 +99,11 @@ body {
     align-items: center;
     gap: 8px;
 }
-.main-container{
+
+.main-container {
     margin-bottom: 32px;
 }
+
 .main-container .subinfo {
     margin-bottom: 40px;
 }
@@ -122,33 +124,44 @@ body {
     align-items: center;
     gap: 8px;
 }
+
+.title {
+    margin-bottom: 32px;
+}
+
 .title h1 span {
     font-size: 18px;
     font-weight: 300;
     line-height: 28px;
 }
-.block .form{
+
+.block .form {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.form .box{
+
+.form .box {
     display: flex;
     align-items: center;
     gap: 31px;
 }
-.box .button1{
+
+.box .button1 {
     padding: 7px 72px;
     border: 1px solid #ADD7FF;
     background-color: #fff;
     font-size: 16px;
     line-height: 26px;
     cursor: pointer;
+    transition: all 0.5s;
 }
-.box .button1{
-    
+
+.box .button1:hover {
+    background-color: #ADD7FF;
 }
-.box .button2{
+
+.box .button2 {
     display: flex;
     align-items: center;
     border: none;
@@ -158,12 +171,86 @@ body {
     gap: 9px;
     cursor: pointer;
 }
-.form .button3{
+
+.form .button3 {
     padding: 7px 16px;
     font-size: 16px;
     line-height: 26px;
     background-color: #fff;
     border: 1px solid #ADD7FF;
     cursor: pointer;
+    transition: all 0.5s;
 
 }
+
+.form .button3:hover {
+    background-color: #ADD7FF;
+}
+
+.hero-info-container{
+    display: flex;
+    align-items: center;
+}
+.hero-info-container .filtr {
+    border: 1px solid #ADD7FF;
+    width: 288px;
+    padding: 24px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.filtr h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #161C24;
+    margin-bottom: 24px;
+
+}
+
+.filtr .sena {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    border: none;
+    background-color: #fff;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+
+}
+.filtr div .but{
+    padding: 10px 30px;
+    border: 1px solid #4295E4;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+    background-color: #fff;
+}
+.filtr div {
+    margin-bottom: 16px;
+}
+.card-box{
+    padding: 16px 0;
+    background-color: #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ADD7FF;
+}
+.card {
+    width: 288px;
+}
+.card .diw1{
+    width: 288px;
+    height: 320px;
+    background-image: url(../images/Rectangle.png);
+    padding: 12px;
+}
+
