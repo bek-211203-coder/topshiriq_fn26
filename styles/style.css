@@ -127,3 +127,43 @@ body {
     font-weight: 300;
     line-height: 28px;
 }
+.block .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form .box{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.box .button1{
+    padding: 7px 72px;
+    border: 1px solid #ADD7FF;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.box .button1{
+    
+}
+.box .button2{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    gap: 9px;
+    cursor: pointer;
+}
+.form .button3{
+    padding: 7px 16px;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #fff;
+    border: 1px solid #ADD7FF;
+    cursor: pointer;
+
+}
