@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+
+}
+.container{
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #454F5B;   
+}
+.header-container{
+    margin-bottom: 20px;
+}
+.header-container .discount{
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+}
+.discount p{
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 12%;
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+.discount div a{
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 12%;
+    color: #fff;
+    transition: all 0.5s;
+}
+.discount div a:hover{
+    color: rgb(102, 194, 234);
+}
+
