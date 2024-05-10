@@ -187,10 +187,13 @@ body {
     background-color: #ADD7FF;
 }
 
-.hero-info-container{
+.hero-info-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
 }
+
 .hero-info-container .filtr {
     border: 1px solid #ADD7FF;
     width: 288px;
@@ -223,7 +226,8 @@ body {
 
 
 }
-.filtr div .but{
+
+.filtr div .but {
     padding: 10px 30px;
     border: 1px solid #4295E4;
 
@@ -233,10 +237,16 @@ body {
 
     background-color: #fff;
 }
+
 .filtr div {
     margin-bottom: 16px;
 }
-.card-box{
+.hero-info-container .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-box {
     padding: 16px 0;
     background-color: #fff;
     border-left: none;
@@ -244,13 +254,71 @@ body {
     border-top: none;
     border-bottom: 1px solid #ADD7FF;
 }
+
 .card {
     width: 288px;
+    border: 1px solid #EAEAEA;
 }
-.card .diw1{
+
+.card .diw1 {
     width: 288px;
     height: 320px;
     background-image: url(../images/Rectangle.png);
     padding: 12px;
 }
 
+.cclas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cross {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+
+.sale {
+    padding: 8px 10px;
+    background-color: #fff;
+    border: none;
+}
+
+.wwww {
+    padding: 8px;
+    background-color: #fff;
+    border: #fff;
+}
+
+.diw2 {
+    padding: 12px;
+}
+
+.diw2 div img {
+    cursor: pointer;
+}
+
+.diw2 div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 9px;
+
+}
+
+.diw2 p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #161C24;
+
+}
+.diw2 p span{
+    text-decoration: line-through;
+    color: #454F5B;
+}
