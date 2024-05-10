@@ -1,46 +1,129 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
     font-size: 16px;
 
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1245px;
     margin: 0 auto;
 }
-.header{
-    background-color: #454F5B;   
+
+.header {
+    background-color: #454F5B;
 }
-.header-container{
+
+.header-container {
     margin-bottom: 20px;
 }
-.header-container .discount{
+
+.header-container .discount {
     display: flex;
     align-items: center;
     padding: 9px 0;
 }
-.discount p{
+
+.discount p {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 12%;
     color: #fff;
     margin-right: auto;
     margin-left: auto;
- 
+
 }
-.discount div a{
+
+.discount div a {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 12%;
     color: #fff;
     transition: all 0.5s;
 }
-.discount div a:hover{
+
+.discount div a:hover {
     color: rgb(102, 194, 234);
 }
 
+.header-nav {
+    border-bottom: 1px solid #C4CDD5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container .logo-com {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+
+.nav .nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-items .items a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.nav-items .items a:hover {
+    color: rgb(102, 194, 234);
+
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.phone .number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.main-container{
+    margin-bottom: 32px;
+}
+.main-container .subinfo {
+    margin-bottom: 40px;
+}
+
+.subinfo p {
+    line-height: 26px;
+}
+
+.subinfo p span {
+    color: rgba(69, 79, 91, 0.3);
+}
+
+.main-container .title h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.title h1 span {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
