@@ -62,12 +62,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: fixed; */
+    background-color: #fff;
 }
 
 .nav-container .logo-com {
     display: flex;
     align-items: center;
     gap: 105px;
+    position: relative;
 }
 
 .nav .nav-items {
@@ -107,12 +110,20 @@ body {
 .main-container .subinfo {
     margin-bottom: 40px;
 }
-
-.subinfo p {
-    line-height: 26px;
+.subinfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
-
-.subinfo p span {
+.subinfo a {
+    line-height: 26px;
+    text-decoration: none;
+    color: #161C24;
+}
+.subinfo span{
+    font-size: 24px;
+}
+.subinfo [accesskey]{
     color: rgba(69, 79, 91, 0.3);
 }
 
@@ -205,7 +216,7 @@ body {
 .hero-info-container .filtr {
     border: 1px solid #ADD7FF;
     width: 288px;
-    padding: 24px;
+    padding: 24px 24px 9px 24px;
     display: flex;
     /* align-items: center; */
     flex-direction: column;
@@ -227,12 +238,13 @@ body {
     padding: 24px 0;
     border: none;
     background-color: #fff;
-
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
+}
 
-
+.filtr .sena img {
+    cursor: pointer;
 }
 
 .filtr div .but {
@@ -263,6 +275,20 @@ body {
     border-right: none;
     border-top: none;
     border-bottom: 1px solid #ADD7FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+
+
+
+}
+
+.card-box img {
+    cursor: pointer;
 }
 
 .card {
@@ -537,8 +563,75 @@ form {
 .call-from button:hover {
     background-color: #145da0;
 }
-.footer{
+
+.footer {
     background: #0D2436;
     padding-top: 55px;
     padding-bottom: 25px;
+}
+
+.footer__container--start {
+    display: flex;
+    align-items: flex-start;
+    gap: 170px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__logo-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 144px;
+}
+
+.footer__logo-link .links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.footer__container--info {
+    display: flex;
+    align-items: flex-start;
+    gap: 97px;
+}
+
+.footer--desc {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--desc h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.footer--desc a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 16px;
+    transition: all 0.5s;
+}
+
+.footer--desc a:hover {
+    color: #145da0;
+    text-decoration: underline;
+}
+
+.footer--text--end {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    color: #fff;
 }
