@@ -428,7 +428,7 @@ body {
 
 /*  */
 
-.Eget__container {
+.Eget__container .Eget-desc {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -464,9 +464,11 @@ body {
     align-items: center;
     gap: 32px;
 }
-form{
+
+form {
     margin-bottom: 24px;
 }
+
 .form-block {
     display: flex;
     flex-direction: column;
@@ -479,4 +481,64 @@ form{
     font-weight: 400;
     line-height: 24px;
     color: #161C24;
+}
+
+.call {
+    background-color: #F2F8FF;
+    padding: 64px 346px 56px 346px;
+    text-align: center;
+}
+
+.call-info h2 {
+
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #161C24;
+    margin-bottom: 24p;
+
+
+}
+
+.call-info p {
+    width: 518px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #454F5B;
+    margin-bottom: 24px;
+    margin: 0 auto;
+}
+
+.call-from {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.call-from input {
+    padding: 12px 16px;
+    border: none;
+    background: #161C240A;
+    outline: none;
+
+}
+
+.call-from button {
+    padding: 12px 70px;
+    border: none;
+    color: #fff;
+    background-color: #4295E4;
+    transition: all 0.5s;
+}
+
+.call-from button:hover {
+    background-color: #145da0;
+}
+.footer{
+    background: #0D2436;
+    padding-top: 55px;
+    padding-bottom: 25px;
 }
