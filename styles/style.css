@@ -190,8 +190,16 @@ body {
 .hero-info-container {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
+
     gap: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.hero-info-container .containet__cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 .hero-info-container .filtr {
@@ -241,11 +249,13 @@ body {
 .filtr div {
     margin-bottom: 16px;
 }
-.hero-info-container .cards{
+
+.hero-info-container .cards {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 .card-box {
     padding: 16px 0;
     background-color: #fff;
@@ -318,7 +328,62 @@ body {
     color: #161C24;
 
 }
-.diw2 p span{
+
+.diw2 p span {
     text-decoration: line-through;
     color: #454F5B;
+}
+
+.hero-info-container .container__corusel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 507px;
+    margin-right: auto;
+
+}
+
+.container__corusel div {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container__corusel .corusel__img {
+    transition: all 0.5s;
+}
+
+.container__corusel .corusel__img:hover {
+    background-color: #EAEAEA;
+}
+
+.container__corusel .carus {
+    background-color: #4295E4;
+
+}
+
+.container__corusel div a {
+    text-decoration: none;
+    color: #161C24;
+}
+
+.container__corusel .carus a span {
+    color: #fff;
+}
+
+/*  */
+.seen__container--title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seen__container--title .title h2 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 62px;
 }
